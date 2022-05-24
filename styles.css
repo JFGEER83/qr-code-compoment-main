@@ -4,3 +4,40 @@ html {
 body {
   background: hsl(212, 45%, 89%);
 }
+.tc {
+  text-align: center;
+}
+.bd {
+  border-radius: 20px;
+}
+.d-flex {
+  display: flex;
+}
+section {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 350px;
+  background-color: hsl(0, 0%, 100%);
+}
+.container .box {
+  width: 100%;
+  padding: 1em;
+}
+.container .box img {
+  width: fit-content;
+}
+.container .text {
+  padding: 3em;
+}
+.container .text h1 {
+  font-size: 22px;
+  color: hsl(218, 44%, 22%);
+}
+.container .text p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
